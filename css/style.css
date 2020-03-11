@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #ebf5fc;
+    /* background: linear-gradient(135deg, var(--color-primary-light) 5%, transparent 50%); */
+  }
+  .auto{
+    position: absolute;
+    left: 50%;
+    top: 18%;
+    transform: translate(-50%,-50%);
+
+  }
+  .ofeii-name{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+  .ofeii-name-en{
+    font-family: 'Saira Extra Condensed',serif;
+    color: #bd5d38;
+    font-size: 2.2rem;
+  }
+  .ofeii-header{
+    font-weight: 700;
+    font-family: 'Saira Extra Condensed',serif;
+    font-size: 1.35rem;
+  }
+  .ofeii-header-ch{
+    font-weight: 700;
+    font-size: 1.35rem;
+  }
+  .header-a{
+    font-family: 'Saira Extra Condensed',serif;
+    text-decoration: none;
+    color: #bd5d38;
+  }
+  .ofeii-hr{
+    color: #bd5d38;
+    margin-top: -1.5rem;
+    margin-bottom: 3rem;
+  }
+  ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 20px;
+    width: 240px;
+    background: #ebf5fc;
+    /* background: #ebf5fc; */
+    /* background: linear-gradient(135deg, var(--color-primary-light) 5%, transparent 50%); */
+    box-shadow: -2px -2px 5px white, 3px 3px 5px rgba(0, 0, 0, 0.1);
+  }
+  ul li {
+    position: relative;
+    list-style: none;
+    text-align: center;
+    margin: 15px;
+  }
+  ul li label {
+    position: relative;
+    cursor: pointer;
+  }
+  ul li label input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+  }
+  ul li label :checked ~ .icon-box {
+    box-shadow: inset -2px -2px 5px white, inset 3px 3px 5px rgba(0, 0, 0, 0.1);
+  }
+  ul li label :checked ~ .icon-box .fa {
+    transform: scale(0.95);
+  }
+  ul li label .icon-box {
+    width: 60px;
+    height: 60px;
+    background: #ebf5fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -2px -2px 5px white, 3px 3px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  ul li label .icon-box .fa {
+    font-size: 30px;
+    color: #6a9bd8;
+  }
+  
+  /* --------Social Icons-------- */
+  /* Color Variables */
+  /* Social Icon Mixin */
+  .social-icons {
+    display: flex;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+  }
+  
+  .social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin: 0 0.7rem;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: all 0.15s ease;
+  }
+  .social-icon:hover {
+    color: #fff;
+  }
+  .social-icon:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(-50%, -150%);
+  }
+  .social-icon:active {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5) inset;
+  }
+  .social-icon--twitter {
+    background: #2b97f1;
+    color: #fff;
+  }
+  .social-icon--twitter .tooltip {
+    background: #2b97f1;
+    color: currentColor;
+  }
+  .social-icon--twitter .tooltip:after {
+    border-top-color: #2b97f1;
+  }
+  .social-icon--codepen {
+    background: #000;
+    color: #fff;
+  }
+  .social-icon--codepen .tooltip {
+    background: #000;
+    color: currentColor;
+  }
+  .social-icon--codepen .tooltip:after {
+    border-top-color: #000;
+  }
+  .social-icon--github {
+    background: #fff;
+    color: #000;
+  }
+  .social-icon--github .tooltip {
+    background: #000;
+    color: #fff;
+  }
+  .social-icon--github .tooltip:after {
+    border-top-color: #000;
+  }
+  .social-icon i {
+    position: relative;
+    top: 1px;
+  }
+  
+  /* Tooltips */
+  .tooltip {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    padding: 0.4rem 0.6rem;
+    border-radius: 40px;
+    font-size: 0.4rem;
+    font-weight: bold;
+    opacity: 0;
+    pointer-events: none;
+    text-transform: uppercase;
+    transform: translate(-50%, -100%);
+    transition: all 0.3s ease;
+    z-index: 1;
+  }
+  .tooltip:after {
+    display: block;
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    content: "";
+    border: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: transparent;
+    transform: translate(-50%, 100%);
+  }
+  .link-icon{
+	width: 36px;
+	height: 36px;
+    border-radius: 50%;
+}
+  
