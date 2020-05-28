@@ -25,11 +25,11 @@ body{
 /* info */
 .ofeii-info{
   text-align: left;
+  color: #343a40;
 }
 .ofeii-name{
   font-weight: 700;
   text-transform: uppercase;
-  color: #343a40;
   font-size: 2rem;
   line-height: 3rem;
 }
@@ -52,7 +52,6 @@ body{
 .ofeii-co{
   font-size: 1rem;
   font-weight: 700;
-  color: #000;
 }
 .ofeii-callme{
   font-family: 'Saira Extra Condensed',serif;
@@ -65,7 +64,6 @@ body{
 }
 .ofeii-hr{
   background: #bd5d38;
-  /* color: #bd5d38; */
   height: 4px;
   width: 14rem;
   margin-top: .618rem;
@@ -109,9 +107,9 @@ ul li label input[type="checkbox"] {
 ul li label :checked ~ .icon-box {
   box-shadow: inset -2px -2px 5px white, inset 3px 3px 5px rgba(0, 0, 0, .1);
 }
-ul li label :checked ~ .icon-box .fa {
+/* ul li label :checked ~ .icon-box .fa {
   transform: scale(0.95);
-}
+} */
 ul li label .icon-box {
   width: 4rem;
   height: 4rem;
