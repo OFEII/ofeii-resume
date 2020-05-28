@@ -6,11 +6,11 @@
 
 ### PC端页面展示
 
-![PC端页面展示](D:\ofeii-resume\images\pc-ofeii-card.png)
+![PC端页面展示](https://github.com/OFEII/ofeii-card/blob/master/images/pc-ofeii-card.png)
 
 ### 移动端页面展示
 
-![移动端页面展示](D:\ofeii-resume\images\moblie-ofeii-card.png)
+![移动端页面展示](https://github.com/OFEII/ofeii-card/blob/master/images/moblie-ofeii-card.png)
 
 ## 兼容性
 
@@ -62,13 +62,13 @@
 
 
 
-![凸起凹陷的真实质感](D:\ofeii-resume\images\mobile-ofeii-card-checkbox.png)
+![凸起凹陷的真实质感](https://github.com/OFEII/ofeii-card/blob/master/images/mobile-ofeii-card-checkbox.png)
 
 ### 2.提示工具tooltip
 
 **提示图标指引到网站平台名字的tooltip。**因为处于简洁设计出发，图标icon下面都没有使用文字注释，于是乎，当鼠标移动到图标上面时，添加多一个tooltip类。:hover选择器用于移到图标上面显示图标指引的网站名字提示。（telephone图标点击可以直接拨打电话 href="tel:xxxx"）
 
-![提示工具tooltip](D:\ofeii-resume\images\moblie-ofeii-card-tooltip.png)
+![提示工具tooltip](https://github.com/OFEII/ofeii-card/blob/master/images/moblie-ofeii-card-tooltip.png)
 
 
 
@@ -82,13 +82,13 @@
 
 英文字体：Saira Extra Condensed
 
-![文字排版](D:\ofeii-resume\images\moblie-ofeii-card-info.png)
+![文字排版](https://github.com/OFEII/ofeii-card/blob/master/images/moblie-ofeii-card-info.png)
 
 ### 4.配色方案
 
 主要的拟态颜色是淡蓝色#EBF5FC，文字的颜色主要为#343A40和#BD5D38搭配，总体配色不丰富，这和拟态的风格和设计理念的简约有一定的联系。
 
-![配色方案](D:\ofeii-resume\images\ofeii-card-colors.png)
+![配色方案](https://github.com/OFEII/ofeii-card/blob/master/images/ofeii-card-colors.png)
 
 ### 5.SVG优化
 
